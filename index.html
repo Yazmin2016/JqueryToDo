@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery清单应用</title>
+    <link rel="stylesheet" href="style/Normalize.css">
+    <link rel="stylesheet" href="style/index.css">
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src=js/store.js></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>我的ToDo</h1>
+        <!--添加清单-->
+        <form class="add-list">
+            <input name="content" type="text" placeholder="e.g.明天早上读英语" autofocus autocomplete="off">
+            <button type="submit"> submit</button>
+        </form>
+        <!--清单列表-->
+        <div class="task-list">
+            <!--<div class="task-item">-->
+                <!--<span><input type="checkbox"></span>-->
+                <!--<span class="content">rrrr</span>-->
+                <!--<span class="detail">详细</span>-->
+                <!--<span class="delete">删除</span>-->
+            <!--</div>-->
+        </div>
+        <div class="task-detail-mask"></div>
+        <!--任务详情-->
+        <div class="list-detail">
+            <div class="input-item content">明天早上读英语</div>
+            <div class="input-item desc"><textarea name="desc"></textarea></div>
+            <div class="input-item remind">
+                <input type="date">
+            </div>
+            <div class="input-item"><button type="submit">更新</button></div>
+        </div>
+    </div>
+</body>
+</html>
