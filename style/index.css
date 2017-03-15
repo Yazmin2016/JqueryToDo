@@ -127,12 +127,12 @@ input[type=date]:hover
  }
 
 .task-detail-mask{
-    position: absolute;
+    position:fixed;
     top:0;
     bottom: 0;
     left:0;
     right: 0;
-    background: rgba(100,100,100,.6);
+    /*background: rgba(100,100,100,.6);*/
     border-radius: 3px;
     padding: 10px;
     display: none;
