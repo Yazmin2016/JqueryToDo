@@ -95,6 +95,20 @@ input[type=date]:hover
 .action:hover{
     color: #333;
 }
+.task-list .completed{
+    background:rgba(255,255,255,.8);
+}
+.task-list .completed:after{
+    content: "";
+    display: block;
+    height:1px;
+    width: 97%;
+    background: #aaaaaa;
+    position: relative;
+    top: -8px;
+    float:right;
+}
+
 
 /*======列表详情======*/
 .list-detail{
@@ -137,6 +151,13 @@ input[type=date]:hover
     padding: 10px;
     display: none;
 }
+.msg{
+    display: none;
+    text-align: center;
+    background: #ffe264;
+    padding: 10px;
+}
+
 
 
 
